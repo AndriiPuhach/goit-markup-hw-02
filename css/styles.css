@@ -88,13 +88,13 @@ body {
   text-transform: uppercase;
 }
 
-/* Основной параметр кнопок */
+/* Основные параметры кнопок */
 .button {
+  font-family: inherit;
   cursor: pointer;
 }
 /* Кнопка герой */
 .hero .button {
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -181,7 +181,6 @@ body {
 
 /* Оформление кнопок портфолио */
 .button-current {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -195,7 +194,6 @@ body {
 }
 
 .filter-button {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
